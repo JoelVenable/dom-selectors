@@ -14,6 +14,9 @@ const body = document.querySelector('body'),
 createArticle(articleObject);
 
 
+//  Assignment 1
+var articleHeader = document.querySelector('.article__header');
+articleHeader.textContent = "Welcome to the Joel Venable Blog";
 
 
 
