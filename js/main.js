@@ -18,7 +18,11 @@ createArticle(articleObject);
 var articleHeader = document.querySelector('.article__header');
 articleHeader.textContent = "Welcome to the Joel Venable Blog";
 
-
+//  Assignment 2 
+var allHeaders = document.querySelectorAll('.article__header');
+allHeaders.forEach(header => {
+  header.classList.add('important');
+});
 
 
 
