@@ -28,7 +28,9 @@ allHeaders.forEach(header => {
 var dashed = document.querySelector('.dashed');
 dashed.classList.remove('dashed');
 
-
+//  Assignment 4
+var footer = document.querySelector('.article__footer');
+footer.classList.add('goldenrod');
 
 
 
