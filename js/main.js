@@ -24,7 +24,9 @@ allHeaders.forEach(header => {
   header.classList.add('important');
 });
 
-
+//  Assignment 3
+var dashed = document.querySelector('.dashed');
+dashed.classList.remove('dashed');
 
 
 
